@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #161513;
+    --text-color: #fff;
+    --text-color-1: #2F3C6E;
+    --text-color-2: #FBEAEB;
+    --hover: #004558,#004558;
+    --dropdown: #08001f;
+    --tg--: #ffffff;
+    
+}
+.darkmode{
+    --primary-color: #fff;
+    --text-color: #000;
+    --text-color-1: #DF8908;
+    --text-color-2: #B415FF;
+    --hover: #3f0028,#582300;
+    --dropdown: rgb(248, 206, 164);
+    --tg--: #111010;
+
+
+}
+
+body{
+    height: 100vh;
+    background: var(--primary-color);
+    color: white;
+}

@@ -1,0 +1,131 @@
+.footer{
+    margin: 25px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.first-foot{
+    align-content: center;
+    width: 135px;
+    margin-bottom: 20px;
+   
+}
+.first-foot h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+span{
+    font-size: 50px;
+    color: rgb(204, 17, 17);
+}
+.first-foot img{
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.footer-top-left p{
+    font-size: 16px;
+    max-width: 300px;
+    color: var(--text-color);
+}
+.footer-top-right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.footer-email-input{
+    display: flex;
+    gap: 20px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background: #32323B;
+    padding-right: 40px;
+}
+.footer-email-input:hover{
+    border: 2px solid var(--text-color);
+     
+}
+.footer-email-input input{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #a0a0a0;
+    font-family: outfit;
+    font-size: 14px;
+}
+.footer-subscribe{
+    font-size: 16px;
+    padding: 11px 25px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, var(--text-color-1) -5.09%, var(--text-color-2) 106.28%);
+    cursor: pointer;
+    transition: 0.3s;
+    color: var(--text-color);
+
+}
+.footer-subscribe:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.dash{
+    background-color: var(--text-color);
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.footer-bottom-left{
+    color: var(--text-color);
+}
+.footer-bottom-right{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+    color: var(--text-color);
+}
+.blue{
+    color: var(--text-color);
+}
+.blue:hover{
+    color: #2F3C6E;
+    transition: 0.5s ease;
+}
+
+@media(max-width:768px){
+    .footer{
+        margin: 40px 10px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-top-left p{
+        font-size: 12px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+    .footer-email-input{
+        width: 48%;
+    }
+    .footer-subscribe{
+        font-size: 0.9rem;
+        text-align: center;
+        padding: 11px 9px 11px 13px;
+    }
+    .footer-bottom p{
+        font-size: 12px;
+    }
+}
+

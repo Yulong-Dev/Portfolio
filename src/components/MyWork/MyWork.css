@@ -1,0 +1,120 @@
+.mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px 50px;
+}
+.mywork-title{
+    position: relative;
+}
+.mywork-title h1{
+    padding: 0px 15px;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.mywork-title img{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.mywork-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.mywork-container img{
+    width: 95%;
+    box-sizing: border-box;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.mywork-container img:hover{
+    transform: scale(1.10);
+    border: 4px solid #11468b;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.mywork-showmore{
+    display: flex;
+    gap: 15px;
+    border-radius: 50px;
+    border: 2px solid var(--text-color);
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    cursor: pointer;
+    color: var(--text-color);
+}
+.mywork-showmore:hover{
+    gap: 30px;
+    transition: 0.6s;
+}
+.mywork-showmore img{
+    width: 25px;
+}
+#more{
+    display: none;
+}
+#more:checked ~ .more-details{
+    top: 0%;
+}
+.more-details{
+    background: rgba(0, 0, 0, 0.815);
+    backdrop-filter: blur(1px);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: -100%;
+    transition: 1s ease-in-out;
+    align-content: center; 
+}
+.details{
+    overflow-x: auto;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    scrollbar-width: none;
+}
+.x{
+    font-size: 30px;
+    bottom: 0;
+    left: 50%;
+    position: fixed;
+}
+.first-image{
+    height: 90%;
+    width: auto;
+    margin: 10px;
+} 
+
+@media(max-width:768px){
+    .mywork{
+        gap: 40px;
+        align-items: start;
+        margin: 40px 10px;
+    }
+    .mywork-title h1{
+        padding: 0;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .mywork-title img{
+        width: 80px;
+        right: -15px;
+    }
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .mywork-showmore{
+        padding: 10px 15px;
+        font-size: 15px;
+        margin: auto;
+    }
+}
