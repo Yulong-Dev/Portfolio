@@ -17,7 +17,7 @@ const Footer = () => {
             <img src={user_icon} alt="" />
             <input type="email" placeholder='Enter your email'/>
           </div>
-          <a href="https:www.youtube.com/@George-Godwin"><div className="footer-subscribe">Subscribe</div></a>
+          <a href="https://youtube.com/@george-godwin?si=hsdj2_xX8T6DtIBQ"><div className="footer-subscribe">Subscribe</div></a>
         </div>
       </div>
       <hr className='dash' />
