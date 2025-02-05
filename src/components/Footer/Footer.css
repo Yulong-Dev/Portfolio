@@ -132,10 +132,10 @@ span{
     }
 }
 
-@media(max-width:300px){
+@media(max-width:350px){
     .footer{
         margin: 40px 10px;
-        max-width: 290px;
+        width: 290px;
     }
     .footer-top{
         flex-direction: column;
