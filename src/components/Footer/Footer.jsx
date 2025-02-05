@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="first-foot">
             <h1>George<span>.</span></h1>
           </div>
-          <p>I am a fullstack developer from, Nigeria with 5years of experience in multiple companies like JengaTech, Billpoint and Fairmoney.</p>
+          <p>I am a fullstack developer from Nigeria, with 5years of experience in multiple companies like JengaTech, Billpoint and Fairmoney.</p>
         </div>
         <div className="footer-top-right">
           <div className="footer-email-input">

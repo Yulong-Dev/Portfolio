@@ -132,36 +132,5 @@ span{
     }
 }
 
-@media(max-width:350px){
-    .footer{
-        margin: 40px 10px;
-        width: 290px;
-    }
-    .footer-top{
-        flex-direction: column;
-        gap: 20px;
-    }
-    .footer-top-left p{
-        font-size: 12px;
-    }
-    .footer-top-right{
-        gap: 15px;
-    }
-    .footer-bottom{
-        display: flex;
-        flex-direction: column-reverse;
-        margin-bottom: 50px;
-    }
-    .footer-email-input{
-       max-width: 45%;
-    }
-    .footer-subscribe{
-        font-size: 0.9rem;
-        text-align: center;   
-        padding: 13px 9px 13px 9px;
-    }
-    .footer-bottom p{
-        font-size: 12px;
-    }
-}
+
 
