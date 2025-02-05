@@ -117,11 +117,12 @@ span{
         margin-bottom: 50px;
     }
     .footer-email-input{
-        width: 48%;
+       max-width: 48%;
+
     }
     .footer-subscribe{
         font-size: 0.9rem;
-        text-align: center;
+        text-align: center;   
         padding: 11px 9px 11px 13px;
     }
     .footer-bottom p{
