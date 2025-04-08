@@ -5,6 +5,7 @@ import Aboutpage from './pages/Aboutpage';
 import Servicespage from './pages/Servicespage';
 import Portfoliopage from './pages/Portfoliopage';
 import Contactpage from './pages/Contactpage';
+import Webdesign from './pages/Webdesign';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
@@ -33,7 +34,13 @@ const router = createBrowserRouter ([
   {
     path:'/contact',
     element: <Contactpage/>
+  },
+
+  {
+    path:'/webDes',
+    element: <Webdesign/>
   }
+
 
 ])
 
