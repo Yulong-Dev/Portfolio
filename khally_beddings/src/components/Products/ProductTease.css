@@ -1,0 +1,17 @@
+.product-tease {
+    margin: 40px 20px;
+  }
+  
+  .tease-title {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tease-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+  }
+  
