@@ -90,19 +90,6 @@ export default function PortfolioPage() {
           </div>
         )}
 
-        {/* How to add projects note */}
-        <div className="mb-16 reveal bg-slate-900 border border-dashed border-slate-700 rounded-xl p-6">
-          <p className="font-mono text-xs text-slate-500 uppercase tracking-widest mb-2">📁 Developer Note</p>
-          <p className="font-body text-sm text-slate-400 leading-relaxed">
-            To add a new project, open <code className="font-mono text-cyan-400 bg-slate-800 px-1.5 py-0.5 rounded text-xs">src/data/projects.js</code> and add a new entry with your project's{' '}
-            <code className="font-mono text-cyan-400 bg-slate-800 px-1.5 py-0.5 rounded text-xs">title</code>,{' '}
-            <code className="font-mono text-cyan-400 bg-slate-800 px-1.5 py-0.5 rounded text-xs">image</code> URL,{' '}
-            <code className="font-mono text-cyan-400 bg-slate-800 px-1.5 py-0.5 rounded text-xs">liveUrl</code>,{' '}
-            <code className="font-mono text-cyan-400 bg-slate-800 px-1.5 py-0.5 rounded text-xs">githubUrl</code>, and{' '}
-            <code className="font-mono text-cyan-400 bg-slate-800 px-1.5 py-0.5 rounded text-xs">tags</code>.
-            The card will appear automatically.
-          </p>
-        </div>
       </div>
     </div>
   )
